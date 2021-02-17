@@ -1,0 +1,27 @@
+{
+  "name": "api-websocket-lambda-dynamodb",
+  "version": "1.0.0",
+  "description": "Use of an Application Load Balancer with an AutoScaling Group",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "~4.1.5"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigatewayv2": "1.89.0",
+    "@aws-cdk/aws-dynamodb": "1.89.0",
+    "@aws-cdk/aws-lambda": "1.89.0",
+    "@aws-cdk/core": "1.89.0"
+  }
+}
