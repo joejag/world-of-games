@@ -1,22 +1,9 @@
 /*
-
-scale: 0,4,8,12,16,24,32,48,64,96,128,256,384,512,640,768
+Scale: 0,4,8,12,16,24,32,48,64,96,128,256,384,512,640,768
 Font sizes: 12,14,16,18,20,24,30,36,48,60,72
 
-Color: https://htmlcolorcodes.com/color-picker/
-#FF3381
-#FF4B33
-
-#FFB133
-#E7FF33
-
-Font size•Font weight•Line height•Color•Margin•Padding•Width•Height•Box shadowsBorder radius•Border width•Opacity
-
-bold: font-weight: 700; 
-normal: font-weight: 400; 
-dark: color: hsl(202, 57%, 15%);
-grey: color: hsl(201, 23%, 24%); 
-
+https://colordesigner.io/gradient-generator
+pinks: #ff3381, #ff6695, #ff8baa, #ffadc0, #ffccd6
 */
 
 html,
@@ -76,7 +63,7 @@ body {
 }
 
 .b-pink-90 {
-  border-color: #ff4b33;
+  border-color: #ff6695;
 }
 
 .lh5 {
@@ -89,6 +76,11 @@ body {
 
 .m0 {
   margin: 0;
+}
+
+.mx5 {
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .mt3 {
@@ -151,6 +143,56 @@ body {
   margin-left: 24px;
 }
 
+.py1 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py2 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.py3 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py4 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.py5 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.px1 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.px2 {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.px3 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.px4 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.px5 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 .pt1 {
   padding-top: 4px;
 }
@@ -195,19 +237,19 @@ body {
   padding-left: 16px;
 }
 
-.br1 {
+.rounded1 {
   border-radius: 4px;
 }
 
 /* UTILITY END */
 
-.border-rb {
+.rounded-rb {
   border-radius: 0 12px 12px 0;
   border: 2px solid hsl(210, 23%, 95%);
   border-left: none;
 }
 
-.border-tl {
+.rounded-tl {
   border-radius: 12px 0 0 12px;
   border: 2px solid hsl(210, 23%, 95%);
   border-right: none;
@@ -217,10 +259,10 @@ body {
   .flex-row {
     flex-direction: column;
   }
-  .border-tl {
+  .rounded-tl {
     display: none;
   }
-  .border-rb {
+  .rounded-rb {
     border-left: 2px solid hsl(210, 23%, 95%);
     border-radius: 12px 12px;
   }
